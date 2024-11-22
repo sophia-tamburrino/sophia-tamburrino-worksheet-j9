@@ -36,6 +36,17 @@ public class ItemFactory {
 }
 ```
 
-## #4 - 
+## #4 - Use the Adapter pattern to allow us to use the Mammal class with the Aquarium class above. Each animal is housed alone in its cage during its visit. All mammals are given the same medication, namely, "antibiotics".
+```Java
+public class Adapter extends Aquarium {
+    private Mammal mam;
+    public Adapter(Mammal in){
+        mam = in;
+    }
+    public void feedAll(ArrayList<Fish> tanks, int numFishInTank) {}
+	public void cleanAll(ArrayList<Fish> tanks) {}
+}
+```
+## #5 - What is the benefit of the Bridge design pattern? Why use one?
+Bridge design patters utelize aggregation through a single class that only takes a type of configuration and a type of logging. 
 
-## #5
