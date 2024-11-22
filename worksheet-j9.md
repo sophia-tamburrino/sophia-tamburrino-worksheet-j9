@@ -48,5 +48,5 @@ public class Adapter extends Aquarium {
 }
 ```
 ## #5 - What is the benefit of the Bridge design pattern? Why use one?
-Bridge design patters utelize aggregation through a single class that only takes a type of configuration and a type of logging. 
+Bridge design patters utelize aggregation through a single class that only takes a type of configuration and a type of logging. Using some classes and interfaces instead of many child classes is more efficient.
 
