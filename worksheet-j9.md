@@ -4,8 +4,11 @@ A design pattern contains techniques and templates on how to program something. 
 ```Java
 
 ```
-## #3
+## #3 - Using the Factory pattern, write code/pseudocode that sets up a factory for two child classes of Animal: Bird and Mammal. Each of these has a constructor with the same arguments as those of the parent class.
+```Java
 
-## #4
+```
+
+## #4 - 
 
 ## #5
